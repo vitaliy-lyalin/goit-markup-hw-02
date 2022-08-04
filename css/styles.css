@@ -1,3 +1,142 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
-    background-color: coral;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  .button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+  }
+  .button.secondary {
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+  }
+  .button.secondary:hover,
+  .button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+  }
+
+/* Цвет основного текста #212121 */
+
+/* Вторичный цвет текста #757575 */
+
+/* Цвет акцента #2196F3 */
+
+/* Белый цвет #FFFFFF */
+
+/* Черный цвет #000000 */
+/* Вторичный цвет текста футера rgba(255, 255, 255, 0.6) */
+
+/* Основной цвет фона #E5E5E5 */
+
+/* Вторичный цвет фона #F5F4FA */
+
+/* Фон футера #2F303A */
+
+/* Стили для index.html */
+
+/* Шапка сайта */
+.page-header {
+  background-color: var(--white-color);
+  display: block;
+  width: 1600px;
+  
+}
+.nav-site .link {
+  color: var(--secondary-text-color);
+}
+.nav-site .link:hover,
+.nav-site .link:focus {
+  color: var(--accent-color);
+}
+.nav-contacts .link {
+  color: var(--primary-text-color);
+}
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--accent-color);
+}
+.nav-site .link.current {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+/* Указание временного фона для отображения белого шрифта */
+.hero {
+  background-color: #2f303a;
+  display: block;
+  width: 1600px;
+}
+/* Постоянные стили */
+.hero-title {
+  color: var(--white-color);
+}
+
+/* Секции */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Особенности */
+.feature-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+.team-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* Футер */
+.page-footer {
+  background-color: var(--footer-background-color);
+  display: block;
+  width: 1600px;
+}
+.footer-contacts .location {
+  color: var(--white-color);
+}
+.footer-contacts .location:hover,
+.footer-contacts .location:focus {
+color: var(--accent-color);
+}
+.footer-contacts .contact {
+  color: var(--footer-contacts-color);
+}
+.footer-contacts .contact:hover,
+.footer-contacts .contact:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+/* Стили для portfolio.html */
+.work-list .title {
+  color: var(--secondary-text-color);
 }
