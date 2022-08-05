@@ -140,3 +140,6 @@ color: var(--accent-color);
 .work-list .title {
   color: var(--secondary-text-color);
 }
+.work-list .text {
+  color: var(--primary-text-color);
+}
