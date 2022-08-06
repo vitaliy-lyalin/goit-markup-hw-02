@@ -79,14 +79,16 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.header-web, 
+.header-web,
 .footer-web {
   color: var(--accent-color);
 }
 .header-studio {
   color: var(--black-color);
 }
-.footer-studio {color: var(--white-color);}
+.footer-studio {
+  color: var(--white-color);
+}
 
 /* Стили для index.html */
 /* Шапка сайта */
